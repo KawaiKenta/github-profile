@@ -18,4 +18,4 @@ jobs:
         env:
           GITHUB_TOKEN: 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
         with:
-          USERNAME: KawaiKenta
+          USERNAME: ${{ github.repository_owner }}
